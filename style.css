@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.bodyImg{
+  background: url(/img/wallpaper.jpg);
+}
+
+/* carousel */
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+#carousel {
+  position: relative;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: rgb(251, 251, 251);
+}
+
+#carousel h1 {
+  font-size: 80px;
+}
+
+.welText{
+  background: #ffe600;
+}
+/* carousel */
+
+/*------------------------------------  */
+
+/* inicio */
+h1{background: rgb(102, 0, 0);}
+h2{background-color: rgb(235, 231, 0);}
+h3{background: rgb(235, 231, 0);}
+/* inicio */
+
+/*------------------------------------  */
+
+/* Navbar */
+.navbar {
+  background: rgb(102, 0, 0);
+}
+.navbar-toggler {
+  background-color: #cfbb00;
+}
+
+.navbar-inicio {
+  background: #fffb00;
+  font-size: 35px;
+  color: rgb(190, 0, 0);
+}
+
+.navbar-inicio:hover {
+  color: rgb(219, 0, 0);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 25px;
+  color: #ffe600;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fffd6c;
+}
+
+.activado {
+  border-bottom: 2px solid #ffee00;
+  font-weight: bold;
+}
+/* Navbar */
+
+/* ------------------------------------------------------------- */
+
+/* boton */
+.btn-hero {
+  background: rgb(255, 255, 53);
+  color: rgb(195, 23, 0);
+}
+.btn-hero:hover {
+  background: rgb(195, 23, 0);
+  color: yellow;
+}
+/* boton */
+
+/* -------------------------------------------------------------- */
+
+/* Tabla */
+table {
+  border-collapse: collapse;
+  background: white;
+}
+
+th {
+  background: rgb(235, 231, 0);
+}
+
+td,
+th {
+  padding: 5px 10px;
+}
+
+@media (max-width: 768px) {
+  .welText{
+    display: none;
+  }
+
+  table {
+    width: 100%;
+  }
+  table tr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+}
+/* Tabla */
+
+/* --------------------------------------------------------- */
+
+/* Footer */
+footer {
+  background: rgb(102, 0, 0);
+  padding-top: 55px;
+  padding-bottom: 40px;
+}
+.footer-items a:hover {
+  color: #949100;
+  z-index: 2;
+}
+.footer-items a {
+  text-decoration: none;
+  color: #fffb00;
+}
