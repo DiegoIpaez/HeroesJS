@@ -142,3 +142,10 @@ footer {
   text-decoration: none;
   color: #fffb00;
 }
+
+
+/* imagen js */
+#imagen_heroe{
+  width: 100%;
+  object-fit: cover;
+}
